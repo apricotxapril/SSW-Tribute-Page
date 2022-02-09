@@ -1,0 +1,291 @@
+body {
+    background-color: #FAF2E5;
+
+}
+
+/* fonts */
+
+@font-face {
+    font-family: Cyrene;
+    src: url(Cyrene\ Regular.otf);
+}
+@font-face {
+    font-family: MADE_Bon_Voyage;
+    src: url(made-bon-voyage-regular-personal-use.otf);
+}
+@font-face {
+    font-family: NewYork;
+    src: url(NewYork.otf);
+}
+@font-face {
+    font-family: ROMANTIC;
+    src: url(ROMANTIC.TTF);
+}
+@font-face {
+    font-family: The_Castle_Elizah;
+    src: url(The_Castle_Elizah_Italic.ttf);
+}
+
+/* Wendy */
+
+.trib {
+    position: absolute;
+    width: 110px;
+    height: 31px;
+    left: 681px;
+    top: 15px;
+
+    font-family: Prata;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #B6B5A0;
+}
+
+h1 {
+    position: absolute;
+    width: 325px;
+    height: 92.86px;
+    left: 558px;
+
+    font-family: MADE_Bon_Voyage;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 120px;
+    line-height: 125px;
+    text-align: center;
+
+    color: #A39CE0;
+}
+
+.grid1 {
+    position: absolute;
+    width: 1450px;
+    height: 250px;
+    left: -5px;
+    top: 90px;
+    border: 1px solid #B6B5A0;
+}
+
+.grid2 {
+    position: absolute;
+    width: 1200px;
+    height: 5010px;
+    left: 120px;
+    top: -5px;
+
+    border: 1px solid #B6B5A0;
+    box-sizing: border-box;
+}
+
+.img-div img {
+    position: absolute;
+    width: 600px;
+    height: 799.66px;
+    left: 436px;
+    top: 403px;
+    border-radius: 400px;
+}
+
+.bio-div h2 {
+    position: absolute;
+    width: 320px;
+    height: 87px;
+    left: 314px;
+    top: 1315px;
+
+    font-family: MADE_Bon_Voyage;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 87px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #A39CE0;
+}
+
+.bio-div h3 {
+    position: absolute;
+    width: 47px;
+    height: 49px;
+    left: 314px;
+    top: 1266px;
+
+    font-family: MADE_Bon_Voyage;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 49px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #A39CE0;
+}
+
+.bio-info-div {
+    position: absolute;
+    width: 454px;
+    height: 168px;
+    left: 775px;
+    top: 1336px;
+
+    font-family: NewYork;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.flower-img-div img {
+    position: absolute;
+    width: 385px;
+    height: 1024px;
+    left: 212px;
+    top: 1486px;
+    border-radius: 384px;
+}
+
+.dis-div h2 {
+    position: absolute;
+    width: 392px;
+    height: 87px;
+    left: 799px;
+    top: 1613px;
+
+    font-family: NewYork;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 87px;
+    /* identical to box height */
+    text-align: right;
+
+    color: #A39CE0;
+}
+
+.dis-div h3 {
+    position: absolute;
+    width: 56px;
+    height: 49px;
+    left: 1135px;
+    top: 1577px;
+
+    font-family: NewYork;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 49px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #A39CE0;
+}
+
+.dis-info-div {
+    position: absolute;
+    width: 569px;
+    height: 1002px;
+    left: 622px;
+    top: 1750px;
+
+    font-family: NewYork;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: right;
+
+    color: #000000;
+
+}
+
+.solo-div h2 {
+    position: absolute;
+    width: 254px;
+    height: 147px;
+    left: 595px;
+    top: 2900px;
+
+    font-family: MADE_Bon_Voyage;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 49px;
+    text-align: center;
+
+    color: #858470;
+}
+
+.solo-div img {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 474px;
+    top: 3200px;
+}
+
+.solo-div iframe {
+    position: absolute;
+    width: 850px;
+    height: 460px;
+    left: 295px;
+    top: 3800px;
+}
+
+.link-div {
+    position: absolute;
+    width: 470px;
+    height: 70px;
+    left: 485px;
+    top: 4330px;
+    text-align: center;
+}
+
+.quote-div img {  
+    position: absolute;
+    width: 1440px;
+    height: 537px;
+    left: 0px;
+    top: 4470px;
+}
+
+.quote-div p {
+    position: absolute;
+    width: 510px;
+    height: 132px;
+    left: 164px;
+    top: 4617px;
+
+    font-family: Cyrene;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: right;
+
+    color: #FFFFFF;
+}
+
+.quote-div h4 {
+    position: absolute;
+    width: 172px;
+    height: 49px;
+    left: 499px;
+    top: 4797px;
+
+    font-family: Cyrene;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 49px;
+    /* identical to box height */
+    text-align: right;
+
+    color: #FFFFFF;
+}
